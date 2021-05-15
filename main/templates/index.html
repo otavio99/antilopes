@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url({{ url_for('static', filename='assets/img/home-bg.jpg') }})">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h1>Antilopes da Rocha Quebrada</h1>
+                        <span class="subheading">Uma nova aventura toda semana</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                {% for post in metainfos %}
+                    <div class="post-preview">
+                        <a href="{{url_for('main.post', path=post.file[0]|safe)}}">
+                            <h2 class="post-title">
+                                {{post.title[0]|safe}}
+                            </h2>
+                            <h3 class="post-subtitle">
+                                {{post.subtitle[0]|safe}}
+                            </h3>
+                        </a>
+                        <p class="post-meta">Postado por
+                            <a href="#">{{post.authors[0]|safe}}</a>
+                            em {{post.date[0]|safe}}</p>
+                    </div>
+                    <hr>
+                {% endfor %}
+                <!-- Pager -->
+                <!--div class="clearfix">
+                    <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+                </div-->
+            </div>
+        </div>
+    </div>
+
+    <hr>
+{% endblock %}
