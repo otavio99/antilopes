@@ -41,7 +41,7 @@ def post(path):
     content = ""
 
     for file in glob.glob(path):
-        content = codecs.open(file, 'r').read()
+        content = codecs.open(file, mode='r', encoding="UTF-8").read()
         content = content.replace("$base", request.headers.get("Referer"))
         print(content)
 
