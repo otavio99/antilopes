@@ -25,7 +25,7 @@ def index():
     meta_list = []
 
     for file in glob.glob(path):
-        html = codecs.open(file, 'r').read()
+        html = codecs.open(file, mode='r', encoding="UTF-8").read()
         md = Markdown(extensions=['meta'])
         md.convert(html)
         meta_list.append(md.Meta)
