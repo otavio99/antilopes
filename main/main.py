@@ -42,7 +42,7 @@ def post(path):
 
     for file in glob.glob(path):
         content = codecs.open(file, mode='r', encoding="UTF-8").read()
-        content = content.replace("$base", request.headers.get("Referer"))
+        content = content.replace("$base", request.url_root)
         print(content)
 
     md = Markdown(extensions=['meta'])
