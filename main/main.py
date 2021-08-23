@@ -46,7 +46,7 @@ def post(path):
 
     md = Markdown(extensions=['meta'])
     html = md.convert(content)
-    return render_template(templates_path + "post.html", content=html, metainfos=md.Meta)
+    return render_template(templates_path + "post.html", content=html, metainfos=md.Meta, img=md.Meta["img"][0])
 
 
 @blueprint.route("/sobre", methods=['GET'])

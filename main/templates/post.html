@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <header class="masthead" style="background-image: url({{ url_for('static', filename='assets/img/post-bg.jpg') }})">
+    <header class="masthead" style="background-image: url({{ url_for('static', filename='assets/img/' + metainfos.img[0]|safe) }})">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -9,9 +9,9 @@
                     <div class="post-heading">
                         <h1>{{metainfos.title[0]|safe}}</h1>
                         <h2 class="subheading">{{metainfos.subtitle[0]|safe}}</h2>
-                        <span class="meta">Posted by
+                        <span class="meta">Postado por
                           <a href="#">{{metainfos.authors[0]|safe}}</a>
-                          on {{metainfos.date[0]|safe}}</span>
+                          em {{metainfos.date[0]|safe}}</span>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
     <article>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto apost">
+                <div class="col-lg-8 col-md-10 mx-auto apost text-justify">
                   {{content|safe}}
                 </div>
             </div>
