@@ -1,8 +1,8 @@
-Title:   Parte 1 - História
+Title:   RPG, A História
 Subtitle: Tudo começa com Dungeons & Dragons
 Authors: Thayza
 Date:  31 Jul 2021
-File: parte1-historia
+File: rpg-historia
 img: RPG_mesa.svg
 
 
@@ -20,7 +20,7 @@ de seus próprios jogos.
 E com essa ideia em mente, ele criou uma sociedade de clubes de Wargames (jogos de guerra), e
 constituiu uma convenção de jogos nomeada Gen Con. Essa convenção basicamente serviria para
 trocar ideias e gostos parecidos com outras pessoas, além de apresentar a um novo publico o mundo
-esse estilo de jogos.
+desse estilo de jogos.
 
 Já nos anos 70, ele ajudou o designer de jogos Jeff Perren a produzir um livreto denominado
 Chainmail, que era um conjunto de regras para Wargames medievais. Nesse livreto, se incluía 44
@@ -38,6 +38,6 @@ seu personagem, seria influenciado por inúmeros dados poliedros convexos regula
 
 O jogo também se baseou no sistema de regras do Wargame Chainmail, mas no caso de Dungeons
 & Dragons, você poderia controlar apenas um pessoa, ao invés de um exercito inteiro, além de ter
-um pouco mais de liberdade para desenvolver os personagem, vilões e NPC (indivíduos figurantes).
+um pouco mais de liberdade para desenvolver os personagem, vilões e NPC (personagens não jogáveis ou indivíduos figurantes).
 
-Hoje em dia, esses estilos de jogos são conhecidos pelo nome **RPG**.
+Hoje em dia, esses estilos de jogos são conhecidos pelo nome **RPG** e a cada dia que passa vem ganhando mais jogadores.
