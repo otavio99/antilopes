@@ -10,6 +10,7 @@
                     <div class="site-heading">
                         <h1>Antilopes da Rocha Quebrada</h1>
                         <span class="subheading">Uma nova aventura toda semana</span>
+                        <a class="btn btn-secondary m-2" href="#posts">posts</a>
                     </div>
                 </div>
             </div>
@@ -19,7 +20,7 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
+            <div id="posts" class="col-lg-8 col-md-10 mx-auto">
                 {% for post in metainfos %}
                     <div class="post-preview">
                         <a href="{{url_for('main.post', path=post.file[0]|safe)}}">
