@@ -40,4 +40,4 @@ O jogo também se baseou no sistema de regras do Wargame Chainmail, mas no caso 
 & Dragons, você poderia controlar apenas um pessoa, ao invés de um exercito inteiro, além de ter
 um pouco mais de liberdade para desenvolver os personagem, vilões e NPC (personagens não jogáveis ou indivíduos figurantes).
 
-Hoje em dia, esses estilos de jogos são conhecidos pelo nome **RPG** e a cada dia que passa vem ganhando mais jogadores.
+Hoje em dia, esses estilos de jogos são conhecidos pelo nome **RPG**, e a cada dia que passa têm se tornado amplamente conhecido.
